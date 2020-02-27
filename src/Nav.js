@@ -22,8 +22,8 @@ export default class Nav extends Component {
         <Link to='/resume'>
           Resume
         </Link>
-        <Link to='/component6'>
-          Comp_6
+        <Link to='/contact'>
+          Contact
         </Link>
       </Content>
     )

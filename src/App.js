@@ -8,6 +8,7 @@ import AboutPage from './AboutPage'
 import WorkoutsPage from './WorkoutsPage'
 import HeadshotPage from './HeadshotPage'
 import ResumePage from './ResumePage'
+import ContactPage from './ContactPage'
 import NotFoundPage from './NotFoundPage'
 import './App.css'
 
@@ -28,6 +29,7 @@ export default class App extends Component {
         <Route path='/workouts' component={WorkoutsPage} />
         <Route path='/headshot' component={HeadshotPage} />
         <Route path='/resume' component={ResumePage} />
+        <Route path='/contact' component={ContactPage} />
         <Route component={NotFoundPage} />
           </Switch>
         </main>

@@ -10,13 +10,12 @@ export default class AboutPage extends Component {
         <img src={portrate} alt='Self portrate' />
         <h2>About</h2>
         <p>
-          Hi, this is a self portrate I made. Can you see how sturdy I am? You can be this sturdy too!
+          
         </p>
         <p>
-          Recently I was playing with some goop, and I suddenly realised, people use their toes every day!
-        </p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed neque non dolor ultrices maximus ut in tellus. Nullam sodales congue consequat.        </p>
         <p>
-          That's why I'm making this website.
+        Donec ultrices nisl felis, a fringilla libero gravida vel.
         </p>
       </Content>
     )
