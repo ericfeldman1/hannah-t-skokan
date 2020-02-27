@@ -5,8 +5,7 @@ export default class Header extends Component {
   render() {
     return (
       <Content className='Header'>
-        <h1>Paltrows<br />Power Toes</h1>
-        <p><em>put your socks away!</em></p>
+        <h1>Hannah T Skokan</h1>
       </Content>
     )
   }

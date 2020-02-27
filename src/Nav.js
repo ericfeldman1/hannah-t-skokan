@@ -16,6 +16,15 @@ export default class Nav extends Component {
         <Link to='/workouts'>
           Workouts
         </Link>
+        <Link to='/headshot'>
+          Headshot
+        </Link>
+        <Link to='/resume'>
+          Resume
+        </Link>
+        <Link to='/component6'>
+          Comp_6
+        </Link>
       </Content>
     )
   }
