@@ -16,8 +16,8 @@ export default class ContactPage extends Component {
           />
           <textarea id="textArea" rows="10" cols="70">
           </textarea>
-          <input type="button" name="submit" value="Submit"
-          />
+          <button type="submit" name="button">Submit
+          </button>
         </form>
       </Content>
     )
