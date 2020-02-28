@@ -14,7 +14,11 @@ export default class ContactPage extends Component {
           />
           <input type="text" name="mail" placeholder="E-mail"
           />
-          <textarea id="textArea" rows="10" cols="70">
+          <textarea 
+          name="message" 
+          // rows="10" cols="70" 
+          placeholder="Message"
+          >
           </textarea>
           <button type="submit" name="button">Submit
           </button>
