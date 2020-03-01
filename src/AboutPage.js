@@ -13,7 +13,7 @@ export default class AboutPage extends Component {
           
         </p>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed neque non dolor ultrices maximus ut in tellus. Nullam sodales congue consequat.        </p>
+        Lorem ipsum dolor sit, consectetur adipiscing elit. Curabitur sed neque non dolor ultrices maximus ut in tellus. Nullam sodales congue consequat.        </p>
         <p>
         Donec ultrices nisl felis, a fringilla libero gravida vel.
         </p>
