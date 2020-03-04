@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import Content from './Content'
-import './WorkoutsPage.css'
+import './VideosPage.css'
 
-export default class WorkoutsPage extends Component {
+export default class VideosPage extends Component {
   render() {
     return (
-      <Content className='WorkoutsPage'>
+      <Content className='VideosPage'>
         <h2>Here are my favourite workouts</h2>
         <ol>
           <li>Try to walk with purpose</li>

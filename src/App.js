@@ -5,7 +5,7 @@ import Header from './Header'
 import Footer from './Footer'
 import HomePage from './HomePage'
 import AboutPage from './AboutPage'
-import WorkoutsPage from './WorkoutsPage'
+import VideosPage from './VideosPage'
 import HeadshotPage from './HeadshotPage'
 import ResumePage from './ResumePage'
 import ContactPage from './ContactPage'
@@ -26,7 +26,7 @@ export default class App extends Component {
           <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/about' component={AboutPage} />
-        <Route path='/workouts' component={WorkoutsPage} />
+        <Route path='/videos' component={VideosPage} />
         <Route path='/headshot' component={HeadshotPage} />
         <Route path='/resume' component={ResumePage} />
         <Route path='/contact' component={ContactPage} />
