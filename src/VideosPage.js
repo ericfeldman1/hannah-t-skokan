@@ -8,11 +8,14 @@ export default class VideosPage extends Component {
       <Content className='VideosPage'>
         <h2>Here are my favourite workouts</h2>
         <ol>
-          <li>Try to walk with purpose</li>
-          <li>Repeatedly tell your toes they're fabulous!</li>
-          <li>Look at your toes sometimes and just concentrate on them&hellip;</li>
-          <li>Use heavier weights with your toes when you feel ready</li>
-          <li>Eat more parsnips</li>
+          <li><video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video></li>
+          <li><video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video></li>
         </ol>
       </Content>
     )
