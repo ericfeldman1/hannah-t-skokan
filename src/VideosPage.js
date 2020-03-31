@@ -6,16 +6,10 @@ export default class VideosPage extends Component {
   render() {
     return (
       <Content className='VideosPage'>
-        <h2>Here are my favourite workouts</h2>
+        <h2>Here are my Videos</h2>
         <ol>
-          <li><video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video></li>
-          <li><video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video></li>
+          <li>Video 1</li>
+          <li>Video 2</li>
         </ol>
       </Content>
     )
