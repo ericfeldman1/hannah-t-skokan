@@ -7,6 +7,9 @@ export default class VideosPage extends Component {
     return (
       <Content className='VideosPage'>
         <h2>Here are my Videos</h2>
+        <iframe width="420" height="315"
+          src="https://www.youtube.com/watch?v=9bSGZL7j9l0">
+        </iframe>
         <ol>
           <li>Video 1</li>
           <li>Video 2</li>

@@ -1,0 +1,11 @@
+img {
+    max-width: 30%;
+    height: auto;
+    margin: 1%;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
