@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import Content from './Content'
-import headshot from './headshot_photo.png'
 
-export default class HeadshotPage extends Component {
+export default class PhotosPage extends Component {
   render() {
     return (
       <Content className='Headshot'>
-        <img src={headshot} alt='Headshot Photo' />
+        <p>Stick in photos from media folder</p>
       </Content>
     )
   }

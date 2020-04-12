@@ -10,14 +10,14 @@ export default class Nav extends Component {
         <Link to='/'>
           Home
         </Link>
-        <Link to='/about'>
+        {/* <Link to='/about'>
           About
+        </Link> */}
+        <Link to='/photos'>
+          Photos
         </Link>
         <Link to='/videos'>
           Videos
-        </Link>
-        <Link to='/headshot'>
-          Headshot
         </Link>
         <Link to='/resume'>
           Resume

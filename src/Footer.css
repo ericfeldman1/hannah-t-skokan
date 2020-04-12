@@ -1,3 +1,9 @@
 .Footer {
   font-size: 10pt;
 }
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}

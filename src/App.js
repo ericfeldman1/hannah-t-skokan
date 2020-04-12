@@ -6,7 +6,7 @@ import Footer from './Footer'
 import HomePage from './HomePage'
 import AboutPage from './AboutPage'
 import VideosPage from './VideosPage'
-import HeadshotPage from './HeadshotPage'
+import PhotosPage from './PhotosPage'
 import ResumePage from './ResumePage'
 import ContactPage from './ContactPage'
 import NotFoundPage from './NotFoundPage'
@@ -27,7 +27,7 @@ export default class App extends Component {
         <Route exact path='/' component={HomePage} />
         <Route path='/about' component={AboutPage} />
         <Route path='/videos' component={VideosPage} />
-        <Route path='/headshot' component={HeadshotPage} />
+        <Route path='/photos' component={PhotosPage} />
         <Route path='/resume' component={ResumePage} />
         <Route path='/contact' component={ContactPage} />
         <Route component={NotFoundPage} />
