@@ -1,7 +1,12 @@
-img {
+.images img {
     max-width: 30%;
     height: auto;
     margin: 1%;
+    border-radius: 10px
+}
+
+.images img:hover {
+    opacity: 90%;
 }
 
 .images {

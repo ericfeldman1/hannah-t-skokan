@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
 import Content from './Content'
-import portrate from './g-paltrow-self-portrate.png'
 import './AboutPage.css'
 
 export default class AboutPage extends Component {
   render() {
     return (
       <Content className='AboutPage'>
-        <img src={portrate} alt='Self portrate' />
         <h2>About</h2>
         <p>
           

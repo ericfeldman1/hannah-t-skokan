@@ -1,8 +1,22 @@
-.VideosPage ol {
+/* iframe {
   margin: 0 0 0 20px;
   padding: 0;
+} */
+
+iframe {
+  width: 40%;
+  /* height: auto; */
+  margin: 1%;
+  border-radius: 10px
 }
 
-.VideosPage li {
-  padding-bottom: 10px;
+iframe:hover {
+  opacity: 90%;
+  background: black;
 }
+
+.videos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+} 

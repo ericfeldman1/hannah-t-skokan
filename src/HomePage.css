@@ -1,7 +1,20 @@
-.homepage_photo img {
+.homepage_header {
+    position: relative;
+}
+
+.homepage_header img {
     width: 100%;
+    /* position: absolute;  */
+    background-size: contain;
+}
+
+.homepage_header h2 {
+    position: absolute;
+    top: 80px;
+    left: 16px;
 }
 
 .class_photo {
+    margin-top: 200px;
     width: 100%;
 }

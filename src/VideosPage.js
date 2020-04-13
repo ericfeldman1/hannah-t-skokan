@@ -6,14 +6,13 @@ export default class VideosPage extends Component {
   render() {
     return (
       <Content className='VideosPage'>
-        <h2>Here are my Videos</h2>
-        <iframe width="420" height="315"
-          src="https://www.youtube.com/watch?v=9bSGZL7j9l0">
-        </iframe>
-        <ol>
-          <li>Video 1</li>
-          <li>Video 2</li>
-        </ol>
+        <h2>Media/Footage</h2>
+        <div className="videos">
+          <iframe width="900" height="506" src="https://www.youtube.com/embed/9bSGZL7j9l0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="626" height="352" src="https://www.youtube.com/embed/2XHY51SXjsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="626" height="352" src="https://www.youtube.com/embed/Kj_tyiuWX_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="626" height="352" src="https://www.youtube.com/embed/rQBNQeSr5pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </Content>
     )
   }

@@ -9,7 +9,7 @@ export default class HomePage extends Component {
   render() {
     return (
       <Content className='HomePage'>
-        <div className="homepage_photo">
+        <div className="homepage_header">
           <h1>Hannah T Skokan</h1>
           <img src={homepage_solo} alt="headshot" />
           <h2>Artist; Performer; Director; Historian; New Yorker.</h2>
