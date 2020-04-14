@@ -7,24 +7,26 @@ export default class Nav extends Component {
   render() {
     return (
       <Content className='Nav'>
-        <Link to='/'>
+        <div className="name">
+        <p>Hannah T Skokan</p>
+        </div>
+        <div className="bar">
+        <Link className='Link' to='/'>
           Home
         </Link>
-        {/* <Link to='/about'>
-          About
-        </Link> */}
-        <Link to='/photos'>
+        <Link className='Link' to='/photos'>
           Photos
         </Link>
-        <Link to='/videos'>
+        <Link className='Link' to='/videos'>
           Videos
         </Link>
-        <Link to='/resume'>
+        <Link className='Link' to='/resume'>
           Resume
         </Link>
-        <Link to='/contact'>
+        <Link className='Link' to='/contact'>
           Contact
         </Link>
+        </div>
       </Content>
     )
   }

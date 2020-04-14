@@ -1,3 +1,4 @@
+.Nav,
 .Nav a,
 .Nav a:active,
 .Nav a:focus,
@@ -6,10 +7,30 @@
 }
 
 .Nav a:hover {
-  color: #ffffff;
+  color: #cc5500;
   text-decoration: solid;
 }
 
 .Nav a:not(:last-of-type) {
   margin-right: 32px;
+}
+
+.Nav {
+  background-color: #555;
+  /* line-height: 50px; */
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+   top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+a, p {
+  font-size: 20px;
+  /* width: 100%;
+  height: 100%; */
+  font-weight: 600;
+  vertical-align: middle;
 }

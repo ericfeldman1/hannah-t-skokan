@@ -1,8 +1,12 @@
 .images img {
-    max-width: 30%;
-    height: auto;
+    /* width: 30%;
     margin: 1%;
-    border-radius: 10px
+    border-radius: 10px */
+    width: auto;
+    max-width: 48%;
+    height: auto;
+    /* max-height: 200px; */
+    margin: 1%   
 }
 
 .images img:hover {

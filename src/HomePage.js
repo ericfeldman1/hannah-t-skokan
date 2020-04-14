@@ -12,7 +12,11 @@ export default class HomePage extends Component {
         <div className="homepage_header">
           <h1>Hannah T Skokan</h1>
           <img src={homepage_solo} alt="headshot" />
-          <h2>Artist; Performer; Director; Historian; New Yorker.</h2>
+          <h2>Artist</h2>
+          <h2>Performer</h2>
+          <h2>Director</h2>
+          <h2>Historian</h2>
+          <h2>New Yorker</h2>
         </div>
         <img className="class_photo" src={homepage_class} alt="class photo" />
         <p>Blurb about showcase...</p>

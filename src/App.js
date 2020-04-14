@@ -4,7 +4,6 @@ import Nav from './Nav'
 import Header from './Header'
 import Footer from './Footer'
 import HomePage from './HomePage'
-import AboutPage from './AboutPage'
 import VideosPage from './VideosPage'
 import PhotosPage from './PhotosPage'
 import ResumePage from './ResumePage'
@@ -19,13 +18,12 @@ export default class App extends Component {
         <nav>
           <Nav />
         </nav>
-        <header>
+        {/* <header>
           <Header />
-        </header>
+        </header> */}
         <main>
           <Switch>
         <Route exact path='/' component={HomePage} />
-        <Route path='/about' component={AboutPage} />
         <Route path='/videos' component={VideosPage} />
         <Route path='/photos' component={PhotosPage} />
         <Route path='/resume' component={ResumePage} />
