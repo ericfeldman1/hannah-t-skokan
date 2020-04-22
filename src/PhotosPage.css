@@ -2,19 +2,25 @@
     /* width: 30%;
     margin: 1%;
     border-radius: 10px */
-    width: auto;
-    max-width: 48%;
+    width: 40%;
     height: auto;
-    /* max-height: 200px; */
-    margin: 1%   
+    margin: 1%;  
+    /* object-fit: scale-down;  */
 }
+
+.holder {   
+    width: auto;
+    display: inline-block;    
+    border: 1px solid red;
+    margin: 1%;
+  }
 
 .images img:hover {
     opacity: 90%;
 }
 
-.images {
+/* .images {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-} 
+}  */

@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Content from './Content'
 import './Nav.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default class Nav extends Component {
   render() {
@@ -14,7 +16,6 @@ export default class Nav extends Component {
   </button>
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav">
-      {/* <Link className="Link nav-item nav-link active" to="/">Home <span className="sr-only">(current)</span></Link> */}
       <Link className="Link nav-item nav-link" to="/photos">Photos</Link>
       <Link className="Link nav-item nav-link" to="/videos">Videos</Link>
       <Link className="Link nav-item nav-link" to="/resume">Resume</Link>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Nav from './Nav'
-import Header from './Header'
+// import Header from './Header'
 import Footer from './Footer'
 import HomePage from './HomePage'
 import VideosPage from './VideosPage'
@@ -10,14 +10,17 @@ import ResumePage from './ResumePage'
 import ContactPage from './ContactPage'
 import NotFoundPage from './NotFoundPage'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import SideBar from "./sidebar";
 
 export default class App extends Component {
   render() {
     return (
       <div className='App'>
-        <nav>
+              <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
+        {/* <nav>
           <Nav />
-        </nav>
+        </nav> */}
         {/* <header>
           <Header />
         </header> */}
