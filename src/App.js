@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Nav from './Nav'
-// import Header from './Header'
+import Header from './Header'
 import Footer from './Footer'
 import HomePage from './HomePage'
 import VideosPage from './VideosPage'
@@ -21,9 +21,9 @@ export default class App extends Component {
         {/* <nav>
           <Nav />
         </nav> */}
-        {/* <header>
+        <header>
           <Header />
-        </header> */}
+        </header>
         <main>
           <Switch>
         <Route exact path='/' component={HomePage} />
