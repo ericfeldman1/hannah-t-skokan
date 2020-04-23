@@ -1,11 +1,16 @@
 .Footer {
   font-size: 20px;
-  margin-bottom: 5%;
-  margin-top: 5%;
+  padding: 3% 0% 3% 0%;
+  background: #555;
+  
 }
 
 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+}
+
+.social-icons img {
+  height: 50px;
 }

@@ -10,7 +10,7 @@ export default class HomePage extends Component {
     return (
       <Content className='HomePage'>
         <div className="homepage_header">
-          {/* <h1>Hannah T Skokan</h1> */}
+          <h1>Hannah T Skokan</h1>
           <img src={homepage_solo} alt="headshot" />
           <h2>Artist</h2>
           <h2>Performer</h2>

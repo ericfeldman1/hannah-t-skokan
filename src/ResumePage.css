@@ -1,8 +1,15 @@
 .Resume {
     margin: auto;
+    /* display: inline-block; */
 }
 
 .Resume img {
     width: 60%;
-    margin: auto;
+    margin-left: 20%;
+}
+
+.Resume button {
+    margin-left: 40%;
+    /* border-radius: 0%; */
+    margin-top: 5%;
 }

@@ -23,7 +23,7 @@ const IMAGES =
         thumbnail: descendants,
         // thumbnailWidth: 320,
         // thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
+        // tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Boats (Jeshu John - designerspics.com)"
 },
 {

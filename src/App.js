@@ -21,9 +21,9 @@ export default class App extends Component {
         {/* <nav>
           <Nav />
         </nav> */}
-        <header>
+        {/* <header>
           <Header />
-        </header>
+        </header> */}
         <main>
           <Switch>
         <Route exact path='/' component={HomePage} />
