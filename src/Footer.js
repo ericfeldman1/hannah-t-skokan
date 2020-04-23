@@ -11,13 +11,19 @@ export default class Footer extends Component {
   render() {
     return (
       <Content className='Footer'>
-         <ul class="social-icons">
-  <li><a href="https://www.instagram.com/livingindiatv/"><img src={instagram} alt="Instagram" /><span></span></a></li>
-  {/* <li><a href="https://youtube.com">youtube<span></span></a></li> */}
-  <li><a href="https://twitter.com/livingindiatv"><img src={twitter} alt="Twitter" /><span></span></a></li>
-  <li><a href="https://www.facebook.com/livingindiatv/"><img src={facebook} alt="Facebook" />
-<span></span></a></li>
- </ul>
+        <section id="lab_social_icon_footer">
+<div class="container">
+        <ul class="text-center center-block">
+              <li><a href="#"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a></li>
+
+	            <li><a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a></li>
+
+	            <li><a href="#"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a></li>
+
+	           <li><a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a></li>
+    </ul>
+</div>
+</section>
       </Content>
     )
   }

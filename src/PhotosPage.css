@@ -25,6 +25,13 @@
     flex-wrap: wrap;
 }  */
 
-.Photos {
-    margin: auto;
+
+.Photos img {
+    display: block;
+    min-height: 1px;
+                width: 100%;
+                border: 1px solid #ddd;
+                overflow: auto;
+                text-align: center;
+                background: white;
 }
