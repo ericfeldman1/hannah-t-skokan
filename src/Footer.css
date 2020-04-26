@@ -2,7 +2,6 @@
   font-size: 20px;
   padding: 3% 0% 3% 0%;
   background: #555;
-  
 }
 
 ul {
@@ -17,7 +16,7 @@ ul {
 } */
 
 #lab_social_icon_footer {
-  padding: 40px 0;
+  /* padding: 40px 0; */
   /* background-color: #dedede; */
 }
 
@@ -47,11 +46,11 @@ ul {
     Multicoloured Hover Variations
 */
 
-#lab_social_icon_footer #social-fb:hover {
+#lab_social_icon_footer .social:hover {
   color: orange;
 }
 
-#lab_social_icon_footer #social-tw:hover {
+/* #lab_social_icon_footer #social-tw:hover {
   color: #4099FF;
 }
 
@@ -61,4 +60,4 @@ ul {
 
 #lab_social_icon_footer #social-em:hover {
   color: #f39c12;
-}
+} */

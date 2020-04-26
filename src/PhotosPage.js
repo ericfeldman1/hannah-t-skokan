@@ -45,15 +45,26 @@ const IMAGES =
 
 
 export default class PhotosPage extends Component {
+
+  styleSmall(){
+    return ({
+       margin: '10px'
+    });
+  }
+
   render() {
     return (
       <Content className='Photos'>
-        <Gallery images={IMAGES}/>
+        <h1 className="title">Photos</h1>
+        <Gallery images={IMAGES}
+         />
       </Content>
     )
   }
 }
 
+
+{/* <Gallery images={IMAGES}/> */}
 
         // <div className="images">
         // <div className="holder">

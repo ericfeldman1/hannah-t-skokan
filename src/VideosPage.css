@@ -6,8 +6,9 @@
 .VideosPage h1 {
   padding-top: 0px;
   /* background-color: #555; */
-  margin: 5% 0 10% 0;
+  margin: 0% 0 10% 0;
   text-align: center;
+  color: white;
 }
 
 iframe {
@@ -27,3 +28,30 @@ iframe:hover {
   justify-content: space-around;
   flex-wrap: wrap;
 } 
+
+.title {
+  overflow: hidden;
+  text-align: center;
+ }
+ 
+ .title:before,
+ .title:after {
+  background-color: #333;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  color: white;
+ }
+ 
+ .title:before {
+  right: 0.5em;
+  margin-left: -50%;
+ }
+ 
+ .title:after {
+  left: 0.5em;
+  margin-right: -50%;
+ }

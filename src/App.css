@@ -4,7 +4,8 @@
   /* min-height: 100vh; */
   font-family: 'Nunito';
   margin: auto;
-  /* background-color: #555; */
+  background-color: #555;
+  /* color: #cc5500; */
 }
 
 /* .App > main {
@@ -15,7 +16,7 @@
   background-color: #cc5500;
   /* margin-top: 50px; */
   text-align: center;
-  height: 50px;
+  height: 75px;
 }
 
 /* .App > nav {

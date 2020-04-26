@@ -7,6 +7,7 @@ export default class ResumePage extends Component {
   render() {
     return (
       <Content className='Resume'>
+      <h1 className="title">Photos</h1>
         <a href={resume} download>
          <button>Download Resume</button>
         </a>
