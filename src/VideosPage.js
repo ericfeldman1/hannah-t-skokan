@@ -15,7 +15,7 @@ export default class VideosPage extends Component {
     };
  
     return (
-    <Content>
+    <Content className="videosPage">
       <h1 className="title">Videos</h1>
 <div className="videos">
     <YouTube videoId="9bSGZL7j9l0" opts={opts} onReady={this._onReady} />
