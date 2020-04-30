@@ -46,12 +46,26 @@
 }
 
 .class_photo {
-    padding-top: 10%;
+    /* padding-top: 10%; */
     padding-left: 5%; 
     width: 90%;
     margin-bottom: 10%;
 }
 
+.headshot_small {
+    padding-top: 10%;
+    padding-left: 5%; 
+    /* width: 40%; */
+    margin-bottom: 10%;
+}
+
+.headshot_1 {
+    width: 47%;
+}
+
+.headshot_2 {
+    width: 40%;
+}
 @media only screen and (max-width: 900px) {
     span {
         display: block;

@@ -12,7 +12,7 @@
 }
 
 iframe {
-  width: 40%;
+  /* width: 40%; */
   /* height: auto; */
   margin: 1%;
   border-radius: 10px
@@ -43,7 +43,6 @@ iframe:hover {
   position: relative;
   vertical-align: middle;
   width: 50%;
-  color: white;
  }
  
  .title:before {
